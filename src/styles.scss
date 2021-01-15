@@ -1,0 +1,94 @@
+body{
+  font-family: Montserrat, sans-serif;
+}
+.layout{
+  max-width: 700px;
+  margin: auto;
+  padding: 10px;
+}
+.post{
+  list-style: none;
+  padding: 10px;
+  border-radius: 5px;
+
+  &:hover{
+    box-shadow:  20px 20px 60px #bebebe,
+                -20px -20px 60px #ffffff;
+  }
+  h1{
+    color: #d23669;
+    font-weight: bold;
+    margin-top: 1.5rem;
+    font-size: 1.75rem;
+    margin-bottom: 0.4375rem;
+  }
+  span{
+    font-size: 14px;
+    font-weight: 600;
+    color: #5a5050;
+  }
+}
+
+a{
+  margin: 0 10px;
+  font-weight: bold;
+  color: black;
+
+  &:hover{
+    text-decoration: none;
+    color: #d23669;
+  }
+}
+
+.home{
+  .heading{
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    padding: 50px 0px;
+  }
+}
+
+.user{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .img{
+    width: 150px;
+    height: 150px;
+    
+    img{
+      width: 100%;
+      height: auto;
+      border-radius: 50%;
+    }
+  }
+  
+  button{
+    width: 200px;
+  }
+}
+
+.books{
+  ul{
+    margin: 20px 0px;
+    li{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+  .add-button{
+    padding: 20px 50px;
+  }
+}
+
+.loading{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  box-shadow: 0px 0px 10px gray;
+  padding: 5px 6px;
+  border-radius: 50%;
+}
