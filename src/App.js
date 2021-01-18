@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles.scss";
-import { BrowserRouter, Route, Link, Switch } from "react-router-dom"
+import { BrowserRouter, Route, Switch } from "react-router-dom"
 import { Home } from "./pages/home"
 import { Posts } from "./pages/posts";
 import { Users } from "./pages/users";
